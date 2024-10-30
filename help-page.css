@@ -1,0 +1,243 @@
+.manage-column.column-shortcode {
+    width: 30%;
+}
+.manage-column.column-service_fields {
+    width: 10%;
+}	
+
+/* pro version notification */
+.dx-message{
+	position:relative;
+	border-left-color:#1199c2!important;
+	overflow:hidden
+}
+.dx-message p{
+	float:left;
+}
+.dx-message p.submit{
+	float:right!important;
+}
+.dx-message a.button-primary,p.dx-actions a.button-primary{
+	background:#1199c2;
+	border-color:#1166a4;
+	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 rgba(0,0,0,.15);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 rgba(0,0,0,.15);
+	color:#fff;
+	text-decoration:none;
+	
+}
+.dx-message a.button-primary:hover,p.dx-actions a.button-primary:hover{
+	background:#2277ae;
+	border-color:#11559a;
+	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 rgba(0,0,0,.15);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 rgba(0,0,0,.15)
+}
+.dx-message a.button-primary:active,p.dx-actions a.button-primary:active{
+	background:#aa559a;
+	border-color:#aa559a
+}
+.dx-message a.docs,.dx-message a.skip,p.dx-actions a.docs,p.dx-actions a.skip{
+	opacity:.7
+}
+.dx-message .twitter-share-button,p.dx-actions .twitter-share-button{
+	vertical-align:middle;
+	margin-left:3px
+}
+
+/* ------------------------------ HELP PAGE ------------------------------ */
+.dx-help-page ::selection {
+	color: #fff;
+	background: #66d344;
+}
+
+.dx-help-page ul {
+	margin-left: 20px;
+}
+.dx-help-page li {
+	list-style: disc;
+}
+
+.dx-help-page p {
+	line-height: 2em;
+}
+
+.dx-help-page img {
+	max-width: 100%;
+	height: auto;
+}
+
+.dx-help-page hr {
+	border: none;
+	border-bottom: 1px solid #f0f0f0;
+	margin: 40px 0;
+}
+
+.dx-help-page .content {
+    width: 65%;
+    margin-right: 5%;
+}
+
+.dx-help-page .content {
+	width: 65%;
+	margin-right: 5%;
+}
+.dx-help-page .sidebar {
+	width: 30%;
+}
+
+.dx-help-page .content,
+.dx-help-page .sidebar  {
+	background: white;
+	padding: 30px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.dx-help-page .page-welcome {
+	margin: 0 0 40px 0;
+	padding: 10px;
+	/*border-bottom: 1px solid #f0f0f0;*/
+	background: #1c4ea0;
+	color: white;
+
+}
+
+.dx-help-page .page-welcome span {
+	font-weight: bold;
+}
+
+.dx-help-page .row :after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.dx-help-page .row  {
+    display: inline-block;
+    width: 100%;
+}
+
+.dx-help-page .row .box {
+	margin: 0;
+}
+
+.dx-help-page .row .one-third {
+	width: 30%;
+	margin-right: 3%;
+	float: left;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.dx-help-page .box {
+	border: 1px solid #f0f0f0;
+	padding: 20px;
+	margin-bottom: 20px;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
+	-webkit-transition: ease 0.6s all;
+	-o-transition: ease 0.6s all;
+	transition: ease 0.6s all;
+
+	color: #888;
+}
+
+.dx-help-page .box:hover {
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px #ccc;
+	-webkit-transition: ease 0.2s all;
+	-o-transition: ease 0.2s all;
+	transition: ease 0.2s all;
+
+	color: #333;
+}
+
+.dx-help-page .box > img {
+	opacity: 0.9;
+	-webkit-transition: ease 0.6s all;
+	-o-transition: ease 0.6s all;
+	transition: ease 0.6s all;
+
+}
+.dx-help-page .box:hover > img {
+	opacity: 1;
+	-webkit-transition: ease 0.2s all;
+	-o-transition: ease 0.2s all;
+	transition: ease 0.2s all;
+}
+
+.dx-help-page .box p { line-height: 1.3em; }
+.dx-help-page .box p:first-child { margin-top: 0; }
+.dx-help-page .box p:last-child { margin-bottom: 0; }
+
+.dx-help-page .box.yellow:before,
+.dx-help-page .box.green:before,
+.dx-help-page .box.blue:before {
+	content: "";
+	height: 5px;
+	display: block;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+.dx-help-page .box.yellow:before { background: #ffd800; }
+.dx-help-page .box.green:before { background: #4fb509; }
+.dx-help-page .box.blue:before { background: #009cff; }
+
+.dx-help-page .box > *:last-child { margin-bottom: 0; padding-bottom: 0; }
+
+.dx-help-page h2.content-title {
+	border-left: 3px solid #333;
+	line-height: 1em;
+	padding: 0 0 0 20px;	
+}
+
+.dx-help-page .dx-footer {
+	border-top: 1px solid #f0f0f0;
+	margin: 30px -30px 0 -30px;
+	padding: 30px 30px 0 30px;
+}
+
+.submit-button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#offer-calc-help-content h3 {
+	margin-top: 20px;
+}
+
+@media (max-width: 1000px) {
+	.dx-help-page .row .one-third {
+		width: 100%;
+		float: none;
+		margin-top: 30px;
+	}
+
+	.dx-help-page .row .one-third:first-child {
+		margin-top: 0;
+	}
+
+	.dx-help-page .sidebar,
+	.dx-help-page .content {
+		width: 100%;
+		float: none;
+	}
+}
